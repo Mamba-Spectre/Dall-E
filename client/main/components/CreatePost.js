@@ -54,7 +54,7 @@ const CreatePost = () => {
       );
       const temp = await response.json();
       const d = temp.data;
-      setSavelink(`${process.env.NEXT_APP_URL}/c/${d._id}`);
+      setSavelink(`${process.env.NEXT_PUBLIC_APP_URL}/c/${d._id}`);
     } catch (err) {
       alert(err);
     }

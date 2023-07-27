@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Montserrat } from "@next/font/google";
-import { AnalyticsWrapper } from "@/main/Analytics";
 import Navbar from "@/main/navbar";
 
 const montserrat = Montserrat({
@@ -21,7 +20,6 @@ export default function RootLayout({ children }) {
       <body className={montserrat.className}>
         <Navbar />
         {children}
-        <AnalyticsWrapper />
       </body>
     </html>
   );
