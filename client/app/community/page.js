@@ -1,7 +1,6 @@
 "use client";
 import Photo from "@/main/components/item";
 import { useState, useEffect } from "react";
-import Gallery from "react-photo-gallery";
 import Footer from "@/main/components/footer";
 
 export async function generateStaticParams() {
@@ -124,7 +123,6 @@ export default function About() {
         </div>
       </div>
       <div className="h-10"></div>
-      <Gallery photos={images} />
       <Footer />
     </div>
   );
