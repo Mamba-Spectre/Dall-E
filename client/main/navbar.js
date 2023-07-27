@@ -4,10 +4,6 @@ import { IoMdMenu, IoMdClose } from "react-icons/io";
 
 const NAV_ITEMS = [
   {
-    label: "Wall",
-    page: "/wall",
-  },
-  {
     label: "Community",
     page: "/community",
   },
