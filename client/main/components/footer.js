@@ -7,7 +7,7 @@ export default function Footer() {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-black md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-black">
-          © 2023 Harsh Vardhan Saroha<a href="https://www.linkedin.com/in/harsh-vardhan-saroha-83095724b/" className="hover:underline"></a>
+          © 2023<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
@@ -22,7 +22,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/harsh-vardhan-saroha-83095724b/"
+            href="/"
             rel="noreferrer"
             target="_blank"
           >
